@@ -1,1 +1,1 @@
-export const sidebarData = {"/demo/":["layout","markdown","page","disable","encrypt"],"/posts/":["strawberry","tomato","dragonfruit","cherry",{"text":"Apple","prefix":"apple/","collapsible":true,"children":["1","2","3","4"]},{"text":"Banana","prefix":"banana/","collapsible":true,"children":["1","2","3","4"]}]};
+export const sidebarData = {"/demo/":["layout","markdown","page","disable","encrypt"],"/posts/":[{"text":"Python","prefix":"Python/","collapsible":true,"children":["高德爬取POI"]}]};
