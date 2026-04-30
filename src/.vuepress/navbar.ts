@@ -6,16 +6,22 @@ export default navbar([
   {
     text: "博文",
     icon: "pen-to-square",
-    prefix: "/posts/",
+    prefix: "/Python/",
     children: [
-      {
-        text: "Python",
-        icon: "pen-to-square",
-        prefix: "Python/",
-        children: [
-          "高德爬取POI",
-        ],
-      },
+      // 子目录写法
+      //  {
+      //   text: "苹果",
+      //   icon: "pen-to-square",
+      //   prefix: "apple/",
+      //   children: [
+      //     { text: "苹果1", icon: "pen-to-square", link: "1" },
+      //     { text: "苹果2", icon: "pen-to-square", link: "2" },
+      //     "3",
+      //     "4",
+      //   ],
+      // },
+      
+      { text: "Python", icon: "pen-to-square", link: "高德爬取POI" },
 
     ],
   },

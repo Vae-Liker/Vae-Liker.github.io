@@ -24,7 +24,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "花谢花会再开",
   displayFooter: true,
 
   // 博客相关
@@ -34,10 +34,10 @@ export default hopeTheme({
     medias: {
       BiliBili: "https://example.com",
       GitHub: "https://example.com",
-      VuePressThemeHope: {
-        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-        link: "https://theme-hope.vuejs.press",
-      },
+      // VuePressThemeHope: {
+      //   icon: "https://theme-hope-assets.vuejs.press/logo.svg",
+      //   link: "https://theme-hope.vuejs.press",
+      // },
     },
   },
 

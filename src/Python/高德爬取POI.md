@@ -19,19 +19,19 @@ tag:
 首先在[⾼德开放平台]((https://lbs.amap.com/))注册并认证,进入个人中⼼->应用管理->我的应用->创建应用->添加->
 命名，服务平台选择Web服务，勾选协议许可，确定->就能看到你自己的key了。
 注册并认证之后你的信息如下
-![高德爬取POI](/assets/images/gd1.png)
+![高德爬取POI](/gade/gd1.png)
 
 创建应用
-![高德爬取POI](/assets/images/gd2.png)
+![高德爬取POI](/gade/gd2.png)
 
 添加key
-![高德爬取POI](/assets/images/gd3.png)
+![高德爬取POI](/gade/gd3.png)
 
 方框里就是你的key
-![高德爬取POI](/assets/images/gd4.png)
+![高德爬取POI](/gade/gd4.png)
 ## ⼆、获取POI分类代码以及城市代码
 在[开发 > Web服务 API > 相关](https://lbs.amap.com/api/webservice/download)下载 中下载 POI分类编码 与 城市编码表
-![高德爬取POI](/assets/images/gd5.png)
+![高德爬取POI](/gade/gd5.png)
 
 ## 三、代码实现
 引入Python库
