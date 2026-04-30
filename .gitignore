@@ -1,0 +1,4 @@
+node_modules
+src/.vuepress/dist
+*.log
+.DS_Store
