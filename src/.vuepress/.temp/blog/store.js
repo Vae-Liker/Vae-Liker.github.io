@@ -1,1 +1,1 @@
-export const store = JSON.parse("{\"0\":\"/demo/page.html\",\"1\":\"/demo/disable.html\",\"2\":\"/demo/encrypt.html\",\"3\":\"/demo/markdown.html\",\"4\":\"/demo/\",\"5\":\"/demo/layout.html\",\"6\":\"/Python/%E9%AB%98%E5%BE%B7%E7%88%AC%E5%8F%96POI.html\",\"7\":\"/intro.html\"}");
+export const store = JSON.parse("{\"0\":\"/Python/%E9%AB%98%E5%BE%B7%E7%88%AC%E5%8F%96POI.html\",\"1\":\"/demo/page.html\",\"2\":\"/demo/disable.html\",\"3\":\"/demo/encrypt.html\",\"4\":\"/demo/markdown.html\",\"5\":\"/demo/\",\"6\":\"/demo/layout.html\",\"7\":\"/intro.html\"}");
