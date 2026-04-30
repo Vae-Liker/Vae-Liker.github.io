@@ -1,10 +1,10 @@
 name: Deploy GitHub Pages
 
 on:
-  # 推送到main分支时自动触发部署
+  # 核心修改：推送到master分支时自动触发部署，和你的仓库默认分支对应
   push:
     branches: [ master ]
-  # 支持手动在GitHub页面触发
+  # 保留手动触发功能
   workflow_dispatch:
 
 jobs:
@@ -15,28 +15,26 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: 设置 pnpm
-        uses: pnpm/action-setup@v4
 
-      - name: 设置 Node.js
+      - name: 安装 Node.js
         uses: actions/setup-node@v4
         with:
-          # 选择要使用的 node 版本
-          node-version: 22
-          # 缓存 pnpm 依赖
-          cache: pnpm
+          node-version: 20
+          cache: npm # 如果你用pnpm，这里改成 pnpm
 
       - name: 安装项目依赖
-        run: pnpm install --frozen-lockfile
+        run: npm ci # 如果你用pnpm，改成 pnpm install --frozen-lockfile
 
-      - name: 构建静态站点
-        run: pnpm docs:build # 和你package.json里的构建命令保持一致
+      - name: 构建 VuePress 站点
+        run: npm run docs:build # 必须和你package.json里的构建命令完全一致
 
       - name: 部署到 GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          # 你的构建产物目录，必须和实际路径一致！
+          # 你的构建产物路径，和你的项目结构对应
           publish_dir: src/.vuepress/dist
-          target_branch: gh-pages
+          # 目标部署分支，默认就是gh-pages，这里显式写出来更清晰
+          # target_branch: gh-pages
+          # 保持部署分支干净，无冗余历史记录
           force_orphan: true
