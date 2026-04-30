@@ -1,7 +1,7 @@
-import { hasGlobalComponent } from "D:/Desktop/demo/my-docs/node_modules/@vuepress/helper/dist/client/index.js";
-import { useScriptTag } from "D:/Desktop/demo/my-docs/node_modules/@vueuse/core/dist/index.js";
+import { hasGlobalComponent } from "D:/Desktop/demo/my-docssinglel/node_modules/@vuepress/helper/dist/client/index.js";
+import { useScriptTag } from "D:/Desktop/demo/my-docssinglel/node_modules/@vueuse/core/dist/index.js";
 import { h } from "vue";
-import { VPIcon } from "D:/Desktop/demo/my-docs/node_modules/@vuepress/plugin-icon/dist/client/index.js"
+import { VPIcon } from "D:/Desktop/demo/my-docssinglel/node_modules/@vuepress/plugin-icon/dist/client/index.js"
 
 export default {
   enhance: ({ app }) => {

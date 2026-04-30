@@ -1,16 +1,16 @@
-import { Layout, NotFound, injectDarkMode, setupDarkMode, setupSidebarItems, scrollPromise } from "D:/Desktop/demo/my-docs/node_modules/vuepress-theme-hope/dist/bundle/exports/base.js";
+import { Layout, NotFound, injectDarkMode, setupDarkMode, setupSidebarItems, scrollPromise } from "D:/Desktop/demo/my-docssinglel/node_modules/vuepress-theme-hope/dist/bundle/exports/base.js";
 
-import { defineCatalogInfoGetter } from "D:/Desktop/demo/my-docs/node_modules/@vuepress/plugin-catalog/dist/client/index.js"
+import { defineCatalogInfoGetter } from "D:/Desktop/demo/my-docssinglel/node_modules/@vuepress/plugin-catalog/dist/client/index.js"
 import { h } from "vue"
 import { resolveComponent } from "vue"
-import { Blog, BloggerInfo, SocialMedias, setupBlog } from "D:/Desktop/demo/my-docs/node_modules/vuepress-theme-hope/dist/bundle/exports/blog.js";
-import "D:/Desktop/demo/my-docs/node_modules/vuepress-theme-hope/dist/client/styles/blog/layout.scss";
-import { GlobalEncrypt, LocalEncrypt } from "D:/Desktop/demo/my-docs/node_modules/vuepress-theme-hope/dist/bundle/exports/encrypt.js";
+import { Blog, BloggerInfo, SocialMedias, setupBlog } from "D:/Desktop/demo/my-docssinglel/node_modules/vuepress-theme-hope/dist/bundle/exports/blog.js";
+import "D:/Desktop/demo/my-docssinglel/node_modules/vuepress-theme-hope/dist/client/styles/blog/layout.scss";
+import { GlobalEncrypt, LocalEncrypt } from "D:/Desktop/demo/my-docssinglel/node_modules/vuepress-theme-hope/dist/bundle/exports/encrypt.js";
 
-import "D:/Desktop/demo/my-docs/node_modules/@vuepress/helper/dist/client/styles/colors.css";
-import "D:/Desktop/demo/my-docs/node_modules/@vuepress/helper/dist/client/styles/normalize.css";
-import "D:/Desktop/demo/my-docs/node_modules/@vuepress/helper/dist/client/styles/sr-only.css";
-import "D:/Desktop/demo/my-docs/node_modules/vuepress-theme-hope/dist/client/styles/index.scss";
+import "D:/Desktop/demo/my-docssinglel/node_modules/@vuepress/helper/dist/client/styles/colors.css";
+import "D:/Desktop/demo/my-docssinglel/node_modules/@vuepress/helper/dist/client/styles/normalize.css";
+import "D:/Desktop/demo/my-docssinglel/node_modules/@vuepress/helper/dist/client/styles/sr-only.css";
+import "D:/Desktop/demo/my-docssinglel/node_modules/vuepress-theme-hope/dist/client/styles/index.scss";
 
 defineCatalogInfoGetter((meta) => {
   const title = meta.title;

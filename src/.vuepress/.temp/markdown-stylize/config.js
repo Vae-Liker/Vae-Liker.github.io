@@ -1,3 +1,3 @@
-import "D:/Desktop/demo/my-docs/node_modules/@mdit/plugin-spoiler/spoiler.css"
+import "D:/Desktop/demo/my-docssinglel/node_modules/@mdit/plugin-spoiler/spoiler.css"
 
 

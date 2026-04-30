@@ -1,5 +1,5 @@
-import CodeDemo from "D:/Desktop/demo/my-docs/node_modules/vuepress-plugin-md-enhance/dist/client/components/CodeDemo.js";
-import MdDemo from "D:/Desktop/demo/my-docs/node_modules/vuepress-plugin-md-enhance/dist/client/components/MdDemo.js";
+import CodeDemo from "D:/Desktop/demo/my-docssinglel/node_modules/vuepress-plugin-md-enhance/dist/client/components/CodeDemo.js";
+import MdDemo from "D:/Desktop/demo/my-docssinglel/node_modules/vuepress-plugin-md-enhance/dist/client/components/MdDemo.js";
 
 export default {
   enhance: ({ app }) => {
