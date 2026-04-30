@@ -1,2 +1,2 @@
-import "D:/Desktop/demo/my-docssinglel/node_modules/@vuepress/plugin-markdown-image/dist/client/styles/figure.css"
+import "D:/Desktop/demo/Vae-Liker.github.io/node_modules/@vuepress/plugin-markdown-image/dist/client/styles/figure.css"
 

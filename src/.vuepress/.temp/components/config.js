@@ -1,8 +1,8 @@
-import { hasGlobalComponent } from "D:/Desktop/demo/my-docssinglel/node_modules/@vuepress/helper/dist/client/index.js";
-import Badge from "D:/Desktop/demo/my-docssinglel/node_modules/vuepress-plugin-components/dist/client/components/Badge.js";
-import VPCard from "D:/Desktop/demo/my-docssinglel/node_modules/vuepress-plugin-components/dist/client/components/VPCard.js";
+import { hasGlobalComponent } from "D:/Desktop/demo/Vae-Liker.github.io/node_modules/@vuepress/helper/dist/client/index.js";
+import Badge from "D:/Desktop/demo/Vae-Liker.github.io/node_modules/vuepress-plugin-components/dist/client/components/Badge.js";
+import VPCard from "D:/Desktop/demo/Vae-Liker.github.io/node_modules/vuepress-plugin-components/dist/client/components/VPCard.js";
 
-import "D:/Desktop/demo/my-docssinglel/node_modules/@vuepress/helper/dist/client/styles/sr-only.css";
+import "D:/Desktop/demo/Vae-Liker.github.io/node_modules/@vuepress/helper/dist/client/styles/sr-only.css";
 
 export default {
   enhance: ({ app }) => {
